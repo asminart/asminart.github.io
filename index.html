@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Asmin Art</title>
+	<link href="https://fonts.googleapis.com/css?family=Cookie|PT+Serif" rel="stylesheet">
+	<style type="text/css">
+		h1{
+			font-family: 'Cookie', cursive;
+			font-size: 6rem;
+		    color: #2196F3;
+		    margin: 0px 10px;
+
+		}
+		img{
+			width: 240px;
+		}
+		p{
+			font-family: 'PT Serif', serif;
+			font-size: 2em;
+		}
+		a{
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+<section><center><h1><u>Asmin Art</u></h1></center>
+</section>
+<section><center><a href=""><p style="display: inline-block"><u>HOME</u></p></a><span style="padding-left: 10px;"></span><a href="/about/"><p style="display: inline-block;"><u>ABOUT</u></p></a></center></section>
+<section>
+<div class="grid">
+<div class="grid-item"><img src="arts/gown.jpg"></div>
+<div class="grid-item"><img src="arts/ying_yang.jpg"></div>
+<div class="grid-item"><img src="arts/random_art_1.jpg"></div>
+<div class="grid-item"><img src="arts/random_art_2.jpg"></div>
+<div class="grid-item"><img src="arts/random_art_3.jpg"></div>
+<div class="grid-item"><img src="arts/forest.jpg"></div>
+<div class="grid-item"><img src="arts/nature.jpg"></div>
+<div class="grid-item"><img src="arts/buddha.jpg"></div>
+<div class="grid-item"><img src="arts/a_art.jpg"></div>
+<div class="grid-item"><img src="arts/peace.jpg"></div>
+<div class="grid-item"><img src="arts/birds.jpg"></div>
+</div>
+</section>
+<script src="https://unpkg.com/jquery@3.2.1"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+
+<script type="text/javascript">
+	
+$('.grid').masonry({
+  // options...
+  itemSelector: '.grid-item',
+  columnWidth: 240
+});
+
+</script>
+</body>
+</html>
